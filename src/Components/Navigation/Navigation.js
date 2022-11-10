@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import mountains from "../../Images/Mountains.png"
+import ikon from "../../Images/Ikon.png"
+import epic from "../../Images/Epic.png"
 import { Link } from 'react-router-dom'
 import "./Navigation.css"
 
@@ -27,6 +29,8 @@ class Navigation extends Component {
           <Link to={'/favorites'} style={{textDecoration: 'none'}}>
             <button className='favorites-btn-container'>Favorites</button>
           </Link>
+          { window.location.pathname === "/" && <button className='ikon-btn-container' onClick={() => { this.props.searchPass("ikon") }}><img src={ikon} className='ikon-btn' alt="Ikon Icon"/></button> }
+          { window.location.pathname === "/" && <button className='epic-btn-container' onClick={() => { this.props.searchPass("epic") }}><img src={epic} className='epic-btn' alt="Epic Icon"/></button> }
         </div>
       </section>
     );
