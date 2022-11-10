@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import ResortCard from '../ResortCard/ResortCard';
-import './Resorts.css'
+import './Resorts.css';
 
 const Resorts = ({ resorts, searchedPass }) => {
     let resortCards;
@@ -17,15 +17,14 @@ const Resorts = ({ resorts, searchedPass }) => {
             id={resort.id}
             key={resort.id}
             logo={resort.logo}
-            region={resort.region}
-            type={resort.type}
+            town={resort.closest_Town}
             pass={resort.pass}
             />
          );
     })
     return (
         <div className='resorts-container'>{ resortData }</div>
-    )
-}
+    );
+};
  
 export default Resorts;

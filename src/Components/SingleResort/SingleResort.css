@@ -35,17 +35,17 @@
 
 .trail-map {
     width: 42vw;
-    height: 50vh;
+    height: 54vh;
     transition: transform .3s;
-    margin-top: 2vh;
+    margin-top: 1vh;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .trail-map:hover {
-    transform: scale(1.46)
+    transform: scale(1.4)
 }
 .details-town {
-    margin-top: 2vh;
+    margin-top: 1.5vh;
 }
 
 .details-region {
@@ -75,7 +75,6 @@
 }
 
 .links-container {
-    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
@@ -86,7 +85,7 @@
     align-items: center;
     justify-content: center;
     color: #002868;
-    margin-right: 5vw;
+    margin-right: 2vw;
 }
 
 .iconhelp {
@@ -117,7 +116,169 @@
     margin-right: 2vw;
 }
 
-@media only screen and (min-width: 650px) and (max-width:1050px) {
+@media only screen and (min-width:300px) and (max-width:480px) {
+    .flex-wrapper {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2.5vh;
+    }
+    
+    .details-title {
+        font-size: 3vh;
+    }
+    
+    .resort-scripts {
+        display: flex;
+        width: 85vw;
+        height: 38vh;
+        margin-right: 0vw;
+        margin-bottom: 0vh;
+        margin-top: 1vh;
+        justify-content: space-evenly;
+        font-size: 10px;
+    }
+    
+    .resort-overview {
+        width: 75vw;
+        font-size: 9px;
+    }
+    
+    .trail-map-container {
+        margin-top: 2vh;
+        height: 40vh;
+    }
+
+    .trail-map {
+        width: 60vw;
+        height: 48vw;
+        margin-top: 0vh;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+
+    .details-container {
+        margin-top: 10vh;
+    }
+    
+    .trail-map:hover {
+        transform: scale(1.5)
+    }
+    
+    .iconhelp {
+        height: 3vh;
+        width: 3vh;
+    }
+    
+    .details-region {
+        font-size: 1vh;
+        margin-top: .5vh;
+    }
+    
+    .details-town {
+        font-size: 1.5vh;
+        margin-top: 1vh;
+    }
+    
+    .details-tickets,
+    .details-web {
+        font-size: 7px;
+    }
+    
+    .snowfall-container {
+        height: 10vh;
+        width: 30vw;
+        margin-top: 1vh;
+    }
+    
+    .links-container{
+        align-content: center;
+        justify-content: space-evenly;
+        margin-top: 1.5vh;
+        margin-left: 2vw;
+    }
+    
+    .list-section {
+        font-size: 1.75vw;
+        width: 75vw;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 0vh;
+        margin-top: 0vh;
+    }
+
+    .trail-map-container {
+        margin-top: 1vh;
+    }
+    
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .flex-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .details-title {
+        font-size: 3vh;
+        margin-top: 0vh;
+    }
+
+    .trail-map-container {
+        margin-top: 9vh;
+    }
+
+    .trail-map {
+        width: 60vw;
+        height: 50vw;
+        margin-top: 0vh;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+    
+    .trail-map:hover {
+        transform: scale(1.425)
+    }
+
+    .resort-scripts {
+        width: 75vw;
+        height: 60vh;
+        margin-top: 5vh;
+        margin-right: 0vw;
+        margin-bottom: 3vh;
+        justify-content: space-evenly;
+    }
+
+    .resort-overview {
+        width: 65vw;
+        margin-top: 2vh;
+    }
+
+    .snowfall-container {
+        width: 25vw;
+        height: 10vh;
+        margin-top: 1vh;
+    }
+
+    .links-container{
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 2vh;
+        margin-left: 1vw;
+    }
+
+    .details-tickets {
+        font-size: 12px;
+    }
+
+    .details-web {
+        font-size: 12px;
+    }
+
+    .iconhelp {
+        height: 4vh;
+        width: 3.25vh;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width:1050px) {
     .details-container {
         height: 85vh;
         margin-top: 14vh;
@@ -136,31 +297,35 @@
     
     .resort-scripts {
         display: flex;
-        width: 75vw;
-        height: 75vh;
+        width: 85vw;
+        height: 35vh;
         margin-right: 0vw;
-        margin-bottom: 3vh;
-        margin-top: 8.75vh;
+        margin-bottom: 2vh;
+        margin-top: 10vh;
         justify-content: space-evenly;
     }
     
     .resort-overview {
-        width: 55vw;
+        width: 75vw;
         margin-top: 2vh;
+        margin-left: 3vw;
+        font-size: 14px;
     }
     
     .trail-map-container {
-        margin-top: 45vh;
+        height: 50vh;
+        margin-top: 40vh;
     }
+
     .trail-map {
         width: 55vw;
-        height: 45vw;
+        height: 42vw;
         margin-top: 0vh;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     }
     
     .trail-map:hover {
-        transform: scale(1.47)
+        transform: scale(1.45)
     }
     
     .iconhelp {
@@ -169,21 +334,21 @@
     
     .details-region {
         font-size: 2vh;
-        margin-bottom: 2.45vh;
+        margin-bottom: 2vh;
     }
 
     .list-section {
         display: flex;
         flex-direction: row;
         font-size: 1.5vw;
-        width: 65vw;
+        width: 70vw;
         justify-content: space-between;
         margin-bottom: 1vh;
         margin-top: 1vh;
     }
     
     .snowfall-container {
-        width: 20vw;
+        width: 18vw;
         height: 10vh;
     }
 
@@ -191,89 +356,11 @@
         flex-direction: row;
         justify-content: space-evenly;
         margin-top: 2vh;
-        margin-left: 5vw;;
-    }
-}
-
-@media only screen and (min-width:200px) and (max-width:649px) {
-    .flex-wrapper {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 4vh;
+        margin-left: 1vw;
     }
 
-    .details-title {
-        font-size: 3vh;
+    .details-tickets,
+    .details-web {
+        font-size: 14px;
     }
-
-    .resort-scripts {
-        display: flex;
-        width: 85vw;
-        height: 36vh;
-        margin-right: 0vw;
-        margin-bottom: 3vh;
-        margin-top: 3vh ;
-        justify-content: space-evenly;
-        font-size: 10px;
-    }
-
-    .resort-overview {
-        width: 75vw;
-        margin-top: 1vh;
-    }
-    
-    .trail-map-container {
-        margin-top: 2vh;
-        height: 50vh;
-    }
-    .trail-map {
-        width: 60vw;
-        height: 50vw;
-        margin-top: 0vh;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    }
-    .details-container {
-        margin-top: 10vh;
-    }
-
-    .trail-map:hover {
-        transform: scale(1.55)
-    }
-
-    .iconhelp {
-        height: 3vh;
-        width: 3vh;
-    }
-
-    .details-region {
-        font-size: 1vh;
-        margin-top: .5vh;
-    }
-
-    .details-town {
-        font-size: 1.5vh;
-    }
-
-    .snowfall-container {
-        height: 10vh;
-        width: 30vw;
-        margin-top: 1vh;
-    }
-
-    .links-container{
-        flex-direction: row;
-        justify-content: space-evenly;
-        margin-top: 1vh;
-        margin-left: 5vw;;
-    }
-
-    .list-section {
-        font-size: 1.75vw;
-        width: 75vw;
-        align-items: center;
-        justify-content: space-between;
-        margin-bottom: 0vh;
-        margin-top: 0vh;
-    }
-
 }
