@@ -99,6 +99,10 @@
   }
 
   @media only screen and (min-width: 650px) and (max-width:1050px) {
+    .nav-wrapper {
+        opacity: 1;
+    }
+
     h1 {
       height: 8vh;
     }
@@ -109,11 +113,16 @@
     .mountain-icon {
       max-width: 6vw;
     }
+
+    .epic-btn {
+        max-width: 9.5vw;
+    }
     
     .home-btn-container,
     .about-btn-container,
     .favorites-btn-container {
       font-size: 12px;
+      min-width: 12vw;
     }
 
     .ikon-btn-container {
@@ -122,6 +131,10 @@
   }
 
   @media only screen and (min-width:200px) and (max-width:649px) {
+    .nav-wrapper {
+        opacity: 1;
+    }
+
     .name {
       font-size: 3.85vw;
     } 

@@ -35,6 +35,7 @@ class SingleResort extends Component {
           <div className='trail-map-container'>
             <h2 className='details-title'>{resort.name}</h2>
             <img src={resort.ski_Map} className='trail-map' alt="trail map"/>
+            <h3 className='details-town'>{resort.closest_Town}</h3>
             <h3 className='details-region'>{resort.region}</h3>
           </div>
           <div className='resort-scripts'>
