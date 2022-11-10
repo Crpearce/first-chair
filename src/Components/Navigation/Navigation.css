@@ -1,0 +1,159 @@
+.nav-wrapper {
+    z-index: 1;
+    width: 100vw;
+    position: fixed;
+    opacity: .95;
+  }
+  
+  .nav {
+    display: flex;
+    position:relative;
+    background-color: #002868;
+    backdrop-filter: blur(5px);
+    align-items: center;
+    justify-content:space-around;
+    z-index: 1;
+  }
+  
+  h1 {
+    background: 
+    url('https://media2.giphy.com/media/FoVi0LDjy1XS8/giphy.gif?cid=ecf05e473kr5jp9iq5cik9fqqckzzxa75kar89tch6fj17v4&rid=giphy.gif&ct=g');
+    font-family: 'Rubik Distressed', cursive;
+    background-color: transparent;
+    background-size: 65vh;
+    color: transparent;
+    text-transform: uppercase;
+    height: 10vh;
+    -webkit-background-clip: text;
+  }
+    
+  .name {
+    display: flex;
+    font-size: 6vh;
+    align-items: center;
+    letter-spacing: 1vh;
+  }
+
+  .mountain-icon {
+    max-height: 9.5vh;
+    max-width: 8vw;
+  }
+
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 7vw;
+    height: 4vh;
+    box-shadow:inset 0px 0px 15px 3px #203355;
+    background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+    border-radius:50px;
+    border:1px solid #1f2f47;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:15px;
+    padding:6px 10px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #263666;
+  }
+
+  button:hover{
+    color: #BF0A30;
+    border: #FFD700 solid 1px;
+    background: snow;
+  }
+  
+  .btn-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #002868;
+    height: 5.5vh;
+    border: bottom 4px;
+  }
+  
+  .ikon-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    width: 9vh;
+    margin-top: .5vh;
+    margin-bottom: .5vh;
+  }
+
+  .epic-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3vh;
+    width: 7vh;
+    margin-top: 1vh;
+  }
+
+  .epic-btn-container,
+  .ikon-btn-container,
+  .home-btn-container,
+  .about-btn-container,
+  .favorites-btn-container {
+    margin-top: .5vh;
+  }
+
+  @media only screen and (min-width: 650px) and (max-width:1050px) {
+    h1 {
+      height: 8vh;
+    }
+    .name {
+      font-size: 4.5vw;
+    }
+
+    .mountain-icon {
+      max-width: 6vw;
+    }
+    
+    .home-btn-container,
+    .about-btn-container,
+    .favorites-btn-container {
+      font-size: 12px;
+    }
+
+    .ikon-btn-container {
+      max-width: 11vw;
+    }
+  }
+
+  @media only screen and (min-width:200px) and (max-width:649px) {
+    .name {
+      font-size: 3.85vw;
+    } 
+
+    .mountain-icon {
+      height: 3.5vh;
+      min-width: 8vw;
+    }
+
+    button {
+      height: 2.75vh;
+      width: 12vw;
+      font-size: 1vh;
+    }
+
+    .btn-section {
+      height: 3.75vh;
+    }
+
+    .nav{
+      height: 8vh;
+    }
+
+    .epic-btn {
+      margin-top: .8vh;
+      height: 2.2vh;
+      max-width: 3.6vh;
+    }
+
+    .ikon-btn {
+      margin-bottom: .25vh;
+      height: 3.5vh;
+      width: 5.5vh;
+    }
+  }

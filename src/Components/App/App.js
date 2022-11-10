@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Navigation from '../Navigation/Navigation';
 import Resorts from '../Resorts/Resorts';
-import SingleResort from '../SingleResort/SingleResort';
+// import SingleResort from '../SingleResort/SingleResort';
 import { Route } from 'react-router-dom';
 import { fetchAllResorts } from '../../api';
 import './App.css';
@@ -33,7 +33,7 @@ class App extends Component {
   render() { 
     return ( 
       <main className='App'>
-        {/* <Route path='/' render={() => <Navigation />} /> */}
+        <Route path='/' render={() => <Navigation />} />
         <Route exact path='/' render={() => <Resorts resorts={this.state.resorts} />} />
         {/* <Route path='/:resortId' render={({ match }) => <SingleResort resortId={match.params.resortId}/>} /> */}
       </main>
