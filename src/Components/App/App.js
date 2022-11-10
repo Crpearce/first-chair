@@ -27,7 +27,7 @@ class App extends Component {
 
   displayResortDetails = (id) => {
     const currentResort = this.state.resorts.find(resort => resort.id === id)
-    this.setState({ singleResort: currentResort })
+    this.setState({ singleResort: currentResort });
   }
 
   render() { 
