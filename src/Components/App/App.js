@@ -11,6 +11,7 @@ class App extends Component {
     super();
     this.state = { 
         resorts: [],
+        searchedPass: '',
         error: '',
      };
   };
@@ -25,16 +26,15 @@ class App extends Component {
     };
   };
 
-  displayResortDetails = (id) => {
-    const currentResort = this.state.resorts.find(resort => resort.id === id)
-    this.setState({ singleResort: currentResort });
-  }
-
+  searchPass = (input) => {
+    this.setState({ searchedPass: input });
+  };
+  
   render() { 
     return ( 
       <main className='App'>
-        <Route path='/' render={() => <Navigation />} />
-        <Route exact path='/' render={() => <Resorts resorts={this.state.resorts} />} />
+        <Route path='/' render={() => <Navigation searchPass={this.searchPass}/>} />
+        <Route exact path='/' render={() => <Resorts resorts={this.state.resorts} searchedPass={this.state.searchedPass} />} />
         <Route path='/:resortId' render={({ match }) => <SingleResort resortId={match.params.resortId}/>} />
       </main>
      )
