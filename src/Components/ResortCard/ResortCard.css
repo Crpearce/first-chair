@@ -1,0 +1,48 @@
+.hidden {
+    display: none
+}
+
+img {
+    height: 50%;
+    width: 50%;
+    cursor: pointer; 
+}
+
+.resort-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 6%;
+    background-color: #fff;
+    height: 25vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.resort-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    -webkit-filter: brightness(1);
+}
+
+.resort-logo {
+    object-fit: contain;
+}
+
+.resort-pass {
+    max-height: 10%;
+    max-width: 16%;
+}
+
+.region {
+    color:#002868;
+    font-size: 1.65vh;
+    margin-top: .5vh;
+    font-family: 'Baloo Thambi 2', cursive;
+}
