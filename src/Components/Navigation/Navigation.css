@@ -98,75 +98,118 @@
     margin-top: .5vh;
   }
 
-  @media only screen and (min-width: 650px) and (max-width:1050px) {
-    .nav-wrapper {
-        opacity: 1;
+  
+  @media only screen and (min-width:300px) and (max-width:480px) {
+      .nav-wrapper {
+          opacity: 1;
+        }
+        
+        .name {
+            font-size: 3.5vw;
+        } 
+        
+        .mountain-icon {
+            height: 3.5vh;
+            min-width: 6vw;
+        }
+        
+        button {
+            height: 2.75vh;
+            width: 15vw;
+            font-size: 1vh;
+        }
+        
+        .btn-section {
+            height: 3.75vh;
+        }
+        
+        .nav{
+            height: 8vh;
+        }
+        
+        .epic-btn {
+            margin-top: .8vh;
+            height: 2.2vh;
+            max-width: 3.6vh;
+        }
+        
+        .ikon-btn {
+            margin-bottom: .25vh;
+            height: 3.5vh;
+            width: 5.5vh;
+        }
     }
 
-    h1 {
-      height: 8vh;
-    }
-    .name {
-      font-size: 4.5vw;
-    }
+    @media only screen and (min-width:481px) and (max-width:768px) {
+        .nav-wrapper {
+            opacity: 1;
+          }
+          
+          .name {
+              font-size: 4.5vw;
+          } 
+          
+          .mountain-icon {
+              height: 4vh;
+              min-width: 7vw;
+          }
+          
+          button {
+              height: 2.75vh;
+              width: 10vw;
+              font-size: 1vh;
+          }
+          
+          .btn-section {
+              height: 3.5vh;
+          }
+          
+          .nav{
+              height: 11vh;
+          }
+          
+          .epic-btn {
+              margin-top: .8vh;
+              height: 2.35vh;
+              max-width: 3.6vh;
+          }
+          
+          .ikon-btn {
+              margin-bottom: .25vh;
+              height: 3.5vh;
+              width: 5.5vh;
+          }
+      }
 
-    .mountain-icon {
-      max-width: 6vw;
-    }
 
-    .epic-btn {
-        max-width: 9.5vw;
+    @media only screen and (min-width: 769px) and (max-width:1024px) {
+      .nav-wrapper {
+          opacity: 1;
+      }
+  
+      h1 {
+        height: 8vh;
+      }
+      .name {
+        font-size: 4.5vw;
+      }
+  
+      .mountain-icon {
+        max-width: 6vw;
+      }
+  
+      .epic-btn {
+          max-width: 9.5vw;
+      }
+      
+      .home-btn-container,
+      .about-btn-container,
+      .favorites-btn-container {
+        font-size: 12px;
+        min-width: 12vw;
+      }
+  
+      .ikon-btn-container {
+        max-width: 11vw;
+      }
     }
-    
-    .home-btn-container,
-    .about-btn-container,
-    .favorites-btn-container {
-      font-size: 12px;
-      min-width: 12vw;
-    }
-
-    .ikon-btn-container {
-      max-width: 11vw;
-    }
-  }
-
-  @media only screen and (min-width:200px) and (max-width:649px) {
-    .nav-wrapper {
-        opacity: 1;
-    }
-
-    .name {
-      font-size: 3.85vw;
-    } 
-
-    .mountain-icon {
-      height: 3.5vh;
-      min-width: 8vw;
-    }
-
-    button {
-      height: 2.75vh;
-      width: 12vw;
-      font-size: 1vh;
-    }
-
-    .btn-section {
-      height: 3.75vh;
-    }
-
-    .nav{
-      height: 8vh;
-    }
-
-    .epic-btn {
-      margin-top: .8vh;
-      height: 2.2vh;
-      max-width: 3.6vh;
-    }
-
-    .ikon-btn {
-      margin-bottom: .25vh;
-      height: 3.5vh;
-      width: 5.5vh;
-    }
-  }
