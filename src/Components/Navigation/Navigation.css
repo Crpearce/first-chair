@@ -99,7 +99,7 @@
   }
 
   
-  @media only screen and (min-width:300px) and (max-width:480px) {
+    @media only screen and (min-width:300px) and (max-width:480px) {
       .nav-wrapper {
           opacity: 1;
         }
@@ -181,35 +181,35 @@
           }
       }
 
-
     @media only screen and (min-width: 769px) and (max-width:1024px) {
-      .nav-wrapper {
-          opacity: 1;
-      }
+        .nav-wrapper {
+            opacity: 1;
+        }
   
-      h1 {
-        height: 8vh;
-      }
-      .name {
-        font-size: 4.5vw;
-      }
+        h1 {
+            height: 8vh;
+        }
+        
+        .name {
+            font-size: 4.5vw;
+        }
   
-      .mountain-icon {
-        max-width: 6vw;
-      }
+        .mountain-icon {
+            max-width: 6vw;
+        }
   
-      .epic-btn {
-          max-width: 9.5vw;
-      }
+        .epic-btn {
+            max-width: 9.5vw;
+        }
       
-      .home-btn-container,
-      .about-btn-container,
-      .favorites-btn-container {
-        font-size: 12px;
-        min-width: 12vw;
-      }
+        .home-btn-container,
+        .about-btn-container,
+        .favorites-btn-container {
+            font-size: 12px;
+            min-width: 12vw;
+        }
   
-      .ikon-btn-container {
-        max-width: 11vw;
-      }
+        .ikon-btn-container {
+            max-width: 11vw;
+        }
     }
