@@ -1,5 +1,7 @@
 import React from 'react';
 import ResortCard from '../ResortCard/ResortCard';
+import PropTypes from 'prop-types';
+
 import './Resorts.css';
 
 const Resorts = ({ resorts, searchedPass }) => {
@@ -28,3 +30,15 @@ const Resorts = ({ resorts, searchedPass }) => {
 };
  
 export default Resorts;
+
+const resortsShape = {
+    id: PropTypes.number,
+    logo: PropTypes.string,
+    closest_Town: PropTypes.string,
+    pass: PropTypes.string
+}
+
+Resorts.propTypes = {
+    resort: PropTypes.shape(resortsShape),
+    searchedPass: PropTypes.elementType
+}

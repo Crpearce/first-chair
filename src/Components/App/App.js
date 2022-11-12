@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import Navigation from '../Navigation/Navigation';
 import Resorts from '../Resorts/Resorts';
 import SingleResort from '../SingleResort/SingleResort';
-import { Route } from 'react-router-dom';
+import About from '../About/About';
+import { Route, Switch } from 'react-router-dom';
 import { fetchAllResorts } from '../../api';
 import './App.css';
 
@@ -27,15 +28,18 @@ class App extends Component {
   };
 
   searchPass = (input) => {
-    this.setState({ searchedPass: input });
+    this.setState({ searchedPass: input })
   };
-  
+
   render() { 
     return ( 
       <main className='App'>
-        <Route path='/' render={() => <Navigation searchPass={this.searchPass}/>} />
-        <Route exact path='/' render={() => <Resorts resorts={this.state.resorts} searchedPass={this.state.searchedPass} />} />
-        <Route path='/:resortId' render={({ match }) => <SingleResort resortId={match.params.resortId}/>} />
+        <Navigation searchPass={this.searchPass} />
+          <Switch>
+            <Route exact path='/' render={() => <Resorts resorts={this.state.resorts} searchedPass={this.state.searchedPass} />} />
+            <Route path="/about" render={() => <About /> } />
+            <Route exact path='/:resortId' render={({ match }) => <SingleResort resortId={match.params.resortId}/>} />
+          </Switch>
       </main>
      )
   };

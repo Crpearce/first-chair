@@ -27,7 +27,6 @@ class SingleResort extends Component {
   };
 
   render() {
-    console.log()
     const resort = this.state.singleResort
     return (
       <section className='details-container'>
