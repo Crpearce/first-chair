@@ -5,14 +5,18 @@
 Are you looking to book a family ski trip but dont know where to start?  Are you a local to the Rocky Mountains looking for a quick 1 stop spot for all your ski resort info? First Chair Colorado has got you covered.  This was a solo project assigned by the [Turing School of Software and Design](https://turing.edu/) designed to challege us with the technologies that were used in Mod 3. These technologies include React, React Router, and Cypress. The project was completed in a 5 day push, requiring roughly 50 hours to complete in its current state. After coming up short while looking for an API that would suit this projects needs, I decided to create my own with Express.js.  This allowed me to store data for 30 Colorado Ski resorts, as well as a list of 20+ top runs in the state that would be visible to a user when they visit the page. 
  
 Deployed UI link (https://first-chair.vercel.app/)
+
 Deployed resort API link (https://first-chair-api.herokuapp.com/api/v1/resorts)
+
 Deployed ski run API link (https://first-chair-api.herokuapp.com/api/v1/runs)
 
 ![Main User Flow](https://user-images.githubusercontent.com/101376200/201546442-b6b95a7c-1718-4ea8-b28a-1830c0ed668a.gif)
-![Single Resort Details](https://user-images.githubusercontent.com/101376200/201545841-46de97ae-be22-47c1-9944-6e4c14df7667.gif)
-![Pass Filter](https://user-images.githubusercontent.com/101376200/201545897-02ca4995-5bb0-4867-91e2-d3ecfb2175cc.gif)
-![Run ticklist](https://user-images.githubusercontent.com/101376200/201545930-bf880506-e93f-4e5a-bb27-63425b8d6813.gif)
 
+![Single Resort Details](https://user-images.githubusercontent.com/101376200/201545841-46de97ae-be22-47c1-9944-6e4c14df7667.gif)
+
+![Pass-Filter](https://user-images.githubusercontent.com/101376200/201546527-f490b4f8-d78e-4a47-bfaf-aaa469e2050d.gif)
+
+![Run ticklist](https://user-images.githubusercontent.com/101376200/201545930-bf880506-e93f-4e5a-bb27-63425b8d6813.gif)
 
 ## Technologies Used
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) |
