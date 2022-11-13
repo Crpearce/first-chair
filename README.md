@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# First Chair Colorado
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Abstract
 
-## Available Scripts
+Are you looking to book a family ski trip but dont know where to start?  Are you a local to the Rocky Mountains looking for a quick 1 stop spot for all your ski resort info? First Chair Colorado has got you covered.  This was a solo project assigned by the [Turing School of Software and Design](https://turing.edu/) designed to challege us with the technologies that were used in Mod 3. These technologies include React, React Router, and Cypress. The project was completed in a 5 day push, requiring roughly 50 hours to complete in its current state. After coming up short while looking for an API that would suit this project, I decided to create my own with Express.js.  This allowed me to store data for 30 Colorado Ski resorts, as well as a list of 20+ top runs in the state that would be visible to a user when they visit the page 
+ 
+Please feel free to check out the deployed link here (https://first-chair.vercel.app/)
 
-In the project directory, you can run:
+## Technologies Used
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) |
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) |
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) |
+![Cypress](https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e) |
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) |
+![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) |
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) |
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
 
-### `npm start`
+## Setup
+Clone, that's right, _clone_ not fork. You will use this repo multiple times, but you can only fork a repository once. So here is what you need to do to clone the repo and still be able to push changes to your repo:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone down this repo. Since you don't want to name your project "webpack-starter-kit", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments): `git clone [remote-address] [what you want to name the repo]`
+1. Remove the default remote: `git remote rm origin` (notice that `git remote -v` not gives you back nothing)
+1. Create a new repo on GitHub with the name of `[what you want to name the repo]` to be consistent with naming
+1. Copy the address that you would use to clone down this repo - something like `git@github.com:...`
+1. Add this remote to your cloned down repo: `git remote add origin [address you copied in the previous step]` - do not include the brackets
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Now try to commit something (just add a line in the README) and push it up to your new repo. If everything is setup correctly, you should see the changes on GitHub.
 
-### `npm test`
+To verify that it is setup correctly, run `npm start` in your terminal. Go to `http://localhost:8080/` and you should see a page with the Turing logo image and a beautiful gradient background. If that's the case, you're good to go. Enter `control + c` in your terminal to stop the server at any time.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Specs
+The project specs and rubric for First Chair Colorado can be found [here](https://frontend.turing.edu/projects/module-3/showcase.html)
 
-### `npm run build`
+ ## Challenges
+- React Router
+- Async JavaScript
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Wins
+- Functioning GET/POST/DELETE methods through Express.js server
+- Accessibility
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Future Extensions
+- Add up to date weather API for each resorts current weather. All free API versions that I attempted to use had a limit of 2 locations to fetch data from at a single time
