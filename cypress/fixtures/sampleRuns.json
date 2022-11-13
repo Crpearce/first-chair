@@ -1,0 +1,23 @@
+{
+    "runs":
+      [ 
+        {
+        "id": 1,
+        "name": "Arapahoe Basin",
+        "runName": "Pallavicini",
+        "difficulty": "Double Black Diamond"
+        },
+        {
+        "id": 2,
+        "name": "Aspen Highlands",
+        "runName": "Highlands Bowl",
+        "difficulty": "Double Black Diamond"
+        },
+        {
+        "id": 3,
+        "name": "Aspen Mountain",
+        "runName": "Walsh's",
+        "difficulty": "Double Black Diamond"
+        }
+  ]
+}

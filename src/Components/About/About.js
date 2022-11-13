@@ -10,7 +10,7 @@ const About = () => {
                 <h2 className='mission-statement'>Mission Statement:</h2>
                 <p> Over the past two decades the corporitization of Colorado's Ski and Snowboard industry has made it difficult
                 for both locals and tourists alike to get reliable resort information without spending significant time on the web.
-                First Chair Colorado provides a single resource encompassing all of Colorados ski resort's allowing quick access to 
+                First Chair Colorado provides a single resource encompassing all of Colorados ski resort's, allowing quick access to 
                 up to date trail maps, live webcams, and lift tickets.</p>
                 <p> Planning a trip with your family and dont know which resort you'd like to ski? First Chair Colorado allows you to browse all 
                 of Colorado's resorts with your estimated trip time from Denver(winter driving / traffic), skiiable acres, trails, vertical

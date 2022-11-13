@@ -47,22 +47,22 @@ img {
     font-family: 'Baloo Thambi 2', cursive;
 }
 
-@media only screen and (min-width: 650px) and (max-width:1050px) {
-    .region {
-        font-size: 1.5vh;   
+    @media only screen and (min-width: 650px) and (max-width:1050px) {
+        .region {
+            font-size: 1.5vh;   
+        }
     }
-  }
 
-@media only screen and (min-width:200px) and (max-width:649px) {
-    .resort-card {
-        height: 15vh;
+    @media only screen and (min-width:200px) and (max-width:649px) {
+        .resort-card {
+            height: 15vh;
+        }
+        .region {
+            margin-top: 3px ;
+            font-size: 1.25vh;   
+        }
+        .resort-pass {
+            max-height: 10%;
+            max-width: 13%;
+        }
     }
-    .region {
-       margin-top: 3px ;
-       font-size: 1.25vh;   
-    }
-    .resort-pass {
-        max-height: 10%;
-        max-width: 13%;
-    }
-  }

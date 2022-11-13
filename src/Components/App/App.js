@@ -18,7 +18,7 @@ class App extends Component {
       searchedPass: "",
       error: "",
     };
-  }
+  };
 
   componentDidMount = async () => {
     try {
@@ -66,15 +66,12 @@ class App extends Component {
         'method': 'DELETE'
       });
       if (!response.ok) {
-        console.log(response.status)
         throw new Error(response.status)
       }
       const newData = response.json();
-      console.log('newData', newData)
       return newData;
     }
     catch (error) {
-      console.log(error.message)
   };
     this.setState({runs: deletedRun})
   }
@@ -87,9 +84,7 @@ class App extends Component {
     return (
       <main className="App">
         <Navigation searchPass={this.searchPass} />
-        {this.state.error && (
-          <h2 className="error">{this.state.errorMessage}</h2>
-        )}
+        {!this.state.runs.length && (<h2 className="error">{this.state.error}</h2>)}
         <Switch>
           <Route exact path="/" render={() => (
               <Resorts

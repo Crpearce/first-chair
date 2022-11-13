@@ -1,4 +1,4 @@
-describe('Home page user flow', () => {
+describe('Single Resort details user flow', () => {
   beforeEach(() => {
     cy.intercept('GET', 'https://first-chair-api.herokuapp.com/api/v1/resorts', {
       statusCode: 200,

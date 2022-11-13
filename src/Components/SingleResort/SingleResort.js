@@ -27,7 +27,7 @@ class SingleResort extends Component {
   };
 
   render() {
-    const resort = this.state.singleResort
+    const resort = this.state.singleResort;
     return (
       <section className='details-container'>
         <div className='flex-wrapper'>

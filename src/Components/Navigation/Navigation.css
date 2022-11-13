@@ -97,7 +97,6 @@
     margin-top: .25vh;
   }
 
-  
     @media only screen and (min-width:300px) and (max-width:480px) {
       .nav-wrapper {
           opacity: 1;
