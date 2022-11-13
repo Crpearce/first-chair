@@ -4,7 +4,10 @@
 
 Are you looking to book a family ski trip but dont know where to start?  Are you a local to the Rocky Mountains looking for a quick 1 stop spot for all your ski resort info? First Chair Colorado has got you covered.  This was a solo project assigned by the [Turing School of Software and Design](https://turing.edu/) designed to challege us with the technologies that were used in Mod 3. These technologies include React, React Router, and Cypress. The project was completed in a 5 day push, requiring roughly 50 hours to complete in its current state. After coming up short while looking for an API that would suit this project, I decided to create my own with Express.js.  This allowed me to store data for 30 Colorado Ski resorts, as well as a list of 20+ top runs in the state that would be visible to a user when they visit the page 
  
-Please check out the deployed link here! (https://first-chair.vercel.app/)
+Deployed UI link (https://first-chair.vercel.app/)
+Deployed resort API link (https://first-chair-api.herokuapp.com/api/v1/resorts)
+Deployed ski run API link (https://first-chair-api.herokuapp.com/api/v1/runs)
+
 ![Main page user flow](https://user-images.githubusercontent.com/101376200/201545765-3fd4c730-6b2e-4870-8761-843cd5ed5b07.gif)
 ![Single Resort Details](https://user-images.githubusercontent.com/101376200/201545841-46de97ae-be22-47c1-9944-6e4c14df7667.gif)
 ![Pass Filter](https://user-images.githubusercontent.com/101376200/201545897-02ca4995-5bb0-4867-91e2-d3ecfb2175cc.gif)
