@@ -108,7 +108,7 @@
         
         .mountain-icon {
             height: 3.5vh;
-            min-width: 6vw;
+            width: auto;
         }
         
         button {
@@ -128,7 +128,7 @@
         .epic-btn {
             margin-top: .8vh;
             height: 2.2vh;
-            max-width: 3.6vh;
+            width: auto;
         }
         
         .ikon-btn {

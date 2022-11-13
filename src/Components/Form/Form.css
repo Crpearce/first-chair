@@ -19,6 +19,11 @@
     .form-container{
         margin-top: 11.7vh;
     }
+    .form-resort {
+        font-size: 8px;
+        width: 16vw;
+        height: 1.25vh;
+    }
 }
 
 @media only screen and (min-width:481px) and (max-width:768px) {
