@@ -1,0 +1,80 @@
+.run-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-color: #fff;
+    width: 75vw;
+    height:5.5vh;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.run-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    -webkit-filter: brightness(1);
+}
+
+.resort-name {
+    font-size: 16px;
+    margin-left: .5vw;
+}
+
+.run-name,
+.run-difficulty {
+    font-size: 16px;
+}
+
+button {
+    margin-right: .5vw;
+}
+
+@media only screen and (min-width:300px) and (max-width:480px) {
+    .resort-name {
+        font-size: 6px;
+        margin-left: 1.5vw;
+    }
+    
+    .run-name,
+    .run-difficulty {
+        font-size: 6px;
+    }
+    .trash {
+        margin-right: .75vw;
+        width: 5vw;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+    .resort-name {
+        font-size: 10.5px;
+        margin-left: 1.5vw;
+    }
+    
+    .run-name,
+    .run-difficulty {
+        font-size: 10.5px;
+    }
+    .trash {
+        margin-right: 1vw;
+        width: 5vw;
+    }
+}  
+
+@media only screen and (min-width:769px) and (max-width:1024px) {
+    .resort-name {
+        font-size: 13.5px;
+        margin-left: 1.75vw;
+    }
+    
+    .run-name,
+    .run-difficulty {
+        font-size: 13.5px;
+    }
+    .trash {
+        margin-right: 1.25vw;
+        width: 5vw;
+    }
+}

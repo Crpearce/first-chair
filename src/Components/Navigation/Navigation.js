@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import mountains from "../../Images/Mountains.png";
 import ikon from "../../Images/Ikon.png";
 import epic from "../../Images/Epic.png";
@@ -20,8 +20,11 @@ function Navigation( { searchPass }) {
           <Link to="/about" style={{textDecoration: 'none'}}>
             <button className='about-btn-container' >About Us</button>
           </Link>
+          <Link to="/ticklist" style={{textDecoration: 'none'}}>
+            <button className='runs-btn-container'>Ticklist</button>
+          </Link>
           <Link to='/' style={{textDecoration: 'none'}}>
-            <button className='ikon-btn-container' onClick={() => { searchPass("ikon") } }><img src={ikon} className='ikon-btn' alt="Ikon Icon"/></button> 
+            <button className='ikon-btn-container' onClick={() => { searchPass("ikon") }}><img src={ikon} className='ikon-btn' alt="Ikon Icon"/></button> 
           </Link>
           <Link to='/' style={{textDecoration: 'none'}}>
             <button className='epic-btn-container' onClick={() => { searchPass("epic") }}><img src={epic} className='epic-btn' alt="Epic Icon"/></button> 
