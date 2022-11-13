@@ -1,13 +1,103 @@
-    .test {
-        margin-top: 50vh;
-        background-color: aqua;
-    }
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    height: 75vh;
+    width: 100vw;
+    overflow:scroll
+}
+
+.about-text {
+    display: flex;
+    margin-top: 5vh;
+    background-color: #8e9ebd;
+    height: 45vh;
+    width: 80vw;
+    color: #002868;
+    flex-direction: column;
+    align-items: center;
+    border-color: #002868;
+    border-style: double;
+    overflow:scroll
+}
+
+.mission-statement {
+    margin-bottom: .5vh;
+}
+
+.about-photo {
+    height: 40vh;
+    width: auto;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    border-radius: 16px;
+}
+
+p {
+    width: 75vw;
+    text-align: left;
+}
     
     @media only screen and (min-width:300px) and (max-width:480px) {
+        .about-container {
+            margin-top: 15vh;
+        }
+        .about-photo {
+            height: 21vh;
+        }
+        .about-text {
+            height: 60vh;
+        }
+
+        .mission-statement {
+            margin-top: 2vh;
+            font-size: 16px;;
+        }
+
+        p {
+            font-size: 11px;
+        }
     }
 
     @media only screen and (min-width:481px) and (max-width:768px) {
+        .about-container {
+            margin-top: 18vh;
+        }
+        .about-photo {
+            height: 25vh;
+        }
+        .about-text {
+            height: 60vh;
+        }
+
+        .mission-statement {
+            margin-top: 2vh;
+            font-size: 22px;;
+        }
+
+        p {
+            font-size: 15px;
+        }
     }
 
     @media only screen and (min-width: 769px) and (max-width:1024px) {
+        .about-container {
+            margin-top: 16vh;
+        }
+        .about-photo {
+            height: 34vh;
+        }
+        .about-text {
+            height: 60vh;
+        }
+
+        .mission-statement {
+            margin-top: 1.5vh;
+            font-size: 22px;;
+        }
+
+        p {
+            font-size: 18px;
+        }
     }

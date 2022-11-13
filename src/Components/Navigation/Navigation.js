@@ -31,9 +31,7 @@ function Navigation( { searchPass }) {
     );
   }
 
- 
 export default Navigation;
-
 
 Navigation.propTypes = {
     searchPass: PropTypes.elementType 
