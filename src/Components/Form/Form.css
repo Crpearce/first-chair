@@ -19,7 +19,9 @@
     .form-container{
         margin-top: 11.7vh;
     }
-    .form-resort {
+    .form-resort, 
+    .form-run, 
+    .form-difficulty {
         font-size: 8px;
         width: 16vw;
         height: 1.25vh;
