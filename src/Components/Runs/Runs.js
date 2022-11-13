@@ -18,7 +18,7 @@ function Runs({ allRuns, deleteRun }) {
   });
 
   return <div className="runs-container">{runCards}</div>;
-}
+};
 
 export default Runs;
 

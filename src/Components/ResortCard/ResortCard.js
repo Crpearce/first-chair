@@ -11,7 +11,7 @@ const ResortCard = ({ id, town, logo, pass }) => {
             <h2 className='region'>{town}</h2>
         </Link> 
     );
-}
+};
  
 export default ResortCard;
 
@@ -20,4 +20,4 @@ ResortCard.propTypes = {
     town: PropTypes.string.isRequired,
     logo: PropTypes.string.isRequired,
     pass: PropTypes.string.isRequired,
-}
+};

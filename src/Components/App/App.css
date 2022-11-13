@@ -13,3 +13,8 @@
   color: snow;
   font-family: 'Baloo Thambi 2', cursive;
 }
+
+.error {
+  color: #002868;
+  margin-top: 35vh;
+}

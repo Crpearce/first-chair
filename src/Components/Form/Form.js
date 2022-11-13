@@ -32,7 +32,6 @@ class Form extends Component {
     this.setState({ name: "", runName: "", difficulty: "" });
   };
 
-
   render() {
     return (
       <form className="form-container">
@@ -41,6 +40,7 @@ class Form extends Component {
           placeholder="Name"
           name="name"
           value={this.state.name}
+          className='form-resort'
           onChange={(event) => this.handleChange(event)}
         />
         <input
@@ -48,6 +48,7 @@ class Form extends Component {
           placeholder="Run Name"
           name="runName"
           value={this.state.runName}
+          className='form-run'
           onChange={(event) => this.handleChange(event)}
         />
         <input
@@ -55,6 +56,7 @@ class Form extends Component {
           placeholder="Run Difficulty"
           name="difficulty"
           value={this.state.difficulty}
+          className='form-difficulty'
           onChange={(event) => this.handleChange(event)}
         />
         <button className='add-run-btn' onClick={(event) => this.submitNewRun(event)}>

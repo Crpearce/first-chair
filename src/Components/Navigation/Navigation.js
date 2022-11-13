@@ -32,10 +32,10 @@ function Navigation( { searchPass }) {
         </div>
       </section>
     );
-  }
+  };
 
 export default Navigation;
 
 Navigation.propTypes = {
     searchPass: PropTypes.elementType 
-}
+};
