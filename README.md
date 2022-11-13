@@ -8,7 +8,7 @@ Deployed UI link (https://first-chair.vercel.app/)
 Deployed resort API link (https://first-chair-api.herokuapp.com/api/v1/resorts)
 Deployed ski run API link (https://first-chair-api.herokuapp.com/api/v1/runs)
 
-![Main page user flow](https://user-images.githubusercontent.com/101376200/201545765-3fd4c730-6b2e-4870-8761-843cd5ed5b07.gif)
+![Main User Flow](https://user-images.githubusercontent.com/101376200/201546442-b6b95a7c-1718-4ea8-b28a-1830c0ed668a.gif)
 ![Single Resort Details](https://user-images.githubusercontent.com/101376200/201545841-46de97ae-be22-47c1-9944-6e4c14df7667.gif)
 ![Pass Filter](https://user-images.githubusercontent.com/101376200/201545897-02ca4995-5bb0-4867-91e2-d3ecfb2175cc.gif)
 ![Run ticklist](https://user-images.githubusercontent.com/101376200/201545930-bf880506-e93f-4e5a-bb27-63425b8d6813.gif)
