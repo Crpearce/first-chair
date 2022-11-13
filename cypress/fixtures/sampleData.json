@@ -1,0 +1,62 @@
+
+   {
+    "resorts":
+      [ 
+    {
+    "id": 1,
+    "name": "Arapahoe Basin",
+    "overview": "Arapahoe Basin boasts having one of the longest ski seasons for skiing in Colorado. It has the highest skiable terrain in North America with a summit elevation of 13,050 feet. Set at the base of the Continental Divide on Loveland Pass, A-Basin offers over a hundred expertly carved trails, above timberline bowls and deep powder stashes.",
+    "region": "Summit County",
+    "logo": "https://res.cloudinary.com/liftopia/image/upload/b_transparent,c_pad,g_center,h_175,w_263/v1501470630/production/logos/3ff3c543f0a88014efefe64eb5280d14.png",
+    "closest_Town": "Georgetown, Colorado",
+    "verticle": 2530,
+    "summit": 13050,
+    "snowfall": 350,
+    "trails": 147,
+    "acres": 1428,
+    "ski_Map": "https://www.skicentral.com/images/trailmaps/303001-2400.jpg",
+    "lifttix": "https://store.arapahoebasin.com/s/lift-tickets/c/full-day-lift-tickets",
+    "live_Cam": "https://www.arapahoebasin.com/the-mountain/webcams/",
+    "hours": 1,
+    "pass": "https://www.ikonpass.com/static/media/ikon-pass-logo.2beb7782.png",
+    "type": "ikon"
+    },
+    {
+    "id": 2,
+    "name": "Aspen",
+    "overview": "Aspen is part of an expansive winter playground with four unique neighbouring mountains (Aspen, Aspen Highlands, Snowmass and Butternut) with 5,527 total acres of terrain. Aspen Mountain has been the place to go since 1947 for ski holidays in Colorado.",
+    "region": "Pitkin County",
+    "logo": "https://www.coloradoski.com/sites/default/files/inline-images/14_ASC_ASPENMOUNTAIN_Stacked_Black.png",
+    "closest_Town": "Aspen, Colorado",
+    "verticle": 3267,
+    "summit": 11212,
+    "snowfall": 300,
+    "trails": 76,
+    "acres": 675,
+    "ski_Map": "https://cdn.ski/QtK48fotJauPfoyW.jpeg",
+    "lifttix": "https://shop.aspensnowmass.com/s/all-lift-tickets/c/lift-tickets-3",
+    "live_Cam": "https://www.aspensnowmass.com/four-mountains/aspen-mountain/mountain-cams",
+    "hours": 4,
+    "pass": "https://www.ikonpass.com/static/media/ikon-pass-logo.2beb7782.png",
+    "type": "ikon"
+    },
+    {
+    "id": 3,
+    "name": "Aspen Highlands",
+    "overview": "Aspen Highlands is part of an expansive winter playground with four unique neighbouring mountains (Aspen, Aspen Highlands, Snowmass and Butternut) with 5,527 total acres of terrain. Aspen Highlands is the less known mountain, popular with locals for the lack of crowds and hiking up to the Highland Bowl.",
+    "region": "Pitkin County",
+    "logo": "https://www.coloradoski.com/sites/default/files/inline-images/14_ASC_ASPENHIGHLANDS_Stacked_Black.png",
+    "closest_Town": "Aspen, Colorado",
+    "verticle": 3635,
+    "summit": 11675,
+    "snowfall": 300,
+    "trails": 144,
+    "acres": 1040,
+    "ski_Map": "https://www.aspensnowmass.com/-/media/aspen-snowmass/images/image-cta-with-title-and-description/image-cta-card-wide/winter/2021-22/highlands-trail-map-image-cta-wide-07302021.jpg?mw=1600&mh=488&hash=CA6EFCC3F2C92E0515D6212AD918D133",
+    "lifttix": "https://shop.aspensnowmass.com/s/all-lift-tickets/c/lift-tickets-3",
+    "live_Cam": "https://www.aspensnowmass.com/four-mountains/aspen-highlands/mountain-cams",
+    "hours": 4,
+    "pass": "https://www.ikonpass.com/static/media/ikon-pass-logo.2beb7782.png",
+    "type": "ikon"
+    }
+  ]}

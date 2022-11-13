@@ -16,11 +16,11 @@ const Resorts = ({ resorts, searchedPass }) => {
     const resortData = resortCards.map(resort => {
         return ( 
             <ResortCard
-            id={resort.id}
-            key={resort.id}
-            logo={resort.logo}
-            town={resort.closest_Town}
-            pass={resort.pass}
+                id={resort.id}
+                key={resort.id}
+                logo={resort.logo}
+                town={resort.closest_Town}
+                pass={resort.pass}
             />
          );
     })
