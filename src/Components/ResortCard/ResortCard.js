@@ -16,8 +16,8 @@ const ResortCard = ({ id, town, logo, pass }) => {
 export default ResortCard;
 
 ResortCard.propTypes = {
-    id: PropTypes.number,
-    town: PropTypes.string,
-    logo: PropTypes.string,
-    pass: PropTypes.string,
+    id: PropTypes.number.isRequired,
+    town: PropTypes.string.isRequired,
+    logo: PropTypes.string.isRequired,
+    pass: PropTypes.string.isRequired,
 }
