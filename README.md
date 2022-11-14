@@ -3,12 +3,6 @@
 ## Abstract
 
 Are you looking to book a family ski trip but dont know where to start?  Are you a local to the Rocky Mountains looking for a quick 1 stop spot for all your ski resort info? First Chair Colorado has got you covered.  This was a solo project assigned by the [Turing School of Software and Design](https://turing.edu/) designed to challege us with the technologies that were used in Mod 3. These technologies include React, React Router, and Cypress. The project was completed in a 5 day push, requiring roughly 50 hours to complete in its current state. After coming up short while looking for an API that would suit this projects needs, I decided to create my own with Express.js.  This allowed me to store data for 30 Colorado Ski resorts, as well as a list of 20+ top runs in the state that would be visible to a user when they visit the page. 
- 
-Deployed UI link (https://first-chair.vercel.app/)
-
-Deployed resort API link (https://first-chair-api.herokuapp.com/api/v1/resorts)
-
-Deployed ski run API link (https://first-chair-api.herokuapp.com/api/v1/runs)
 
 ![Main User Flow](https://user-images.githubusercontent.com/101376200/201546442-b6b95a7c-1718-4ea8-b28a-1830c0ed668a.gif)
 
@@ -27,6 +21,12 @@ Deployed ski run API link (https://first-chair-api.herokuapp.com/api/v1/runs)
 ![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) |
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) |
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) 
+
+Deployed UI link (https://first-chair.vercel.app/)
+
+Deployed resort API link (https://first-chair-api.herokuapp.com/api/v1/resorts)
+
+Deployed ski run API link (https://first-chair-api.herokuapp.com/api/v1/runs)
 
 ## Setup
 Clone, that's right, _clone_ not fork. You will use this repo multiple times, but you can only fork a repository once. So here is what you need to do to clone the repo and still be able to push changes to your repo:
