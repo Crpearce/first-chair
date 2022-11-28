@@ -24,9 +24,9 @@ Are you looking to book a family ski trip but dont know where to start?  Are you
 
 Deployed UI link (https://first-chair.vercel.app/)
 
-Deployed resort API link (https://first-chair-api.herokuapp.com/api/v1/resorts)
+Deployed resort API link (https://first-chair-91dw1yyij-crpearce.vercel.app/api/v1/resorts)
 
-Deployed ski run API link (https://first-chair-api.herokuapp.com/api/v1/runs)
+Deployed ski run API link (https://first-chair-91dw1yyij-crpearce.vercel.app/api/v1/runs)
 
 ## Setup
 Clone, that's right, _clone_ not fork. You will use this repo multiple times, but you can only fork a repository once. So here is what you need to do to clone the repo and still be able to push changes to your repo:
