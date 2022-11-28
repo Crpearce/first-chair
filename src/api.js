@@ -1,7 +1,7 @@
 export const fetchAllResorts = async () => {
-    return await fetch("https://first-chair-api.herokuapp.com/api/v1/resorts");
+    return await fetch("https://first-chair-91dw1yyij-crpearce.vercel.app/api/v1/resorts");
   };
 
   export const fetchAllRuns = async () => {
-    return await fetch("https://first-chair-api.herokuapp.com/api/v1/runs");
+    return await fetch("https://first-chair-91dw1yyij-crpearce.vercel.app/api/v1/runs");
   };
